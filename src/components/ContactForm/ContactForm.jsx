@@ -56,7 +56,7 @@ const ContactForm = ({ onSubmit }) => {
         <FormInput type="text" name="number" id={numberID} />
         <ErrMessage name="number" component="div" />
 
-        <SubmitButton type="submit">Submit</SubmitButton>
+        <SubmitButton type="submit">Add contact</SubmitButton>
       </FormContact>
     </Formik>
   );
